@@ -8,7 +8,8 @@ int main(){
     char a = getchar();
     //output print
     printf("You enter char: %c \n",a);
-    
+    //out put putchar
+    putchar(a);
 
 
 
