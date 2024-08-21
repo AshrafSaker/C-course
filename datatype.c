@@ -1,4 +1,7 @@
+// callde lap to use printf()
 #include <stdio.h>
+// Define to const Variable
+#define PI 3.14
 
 int main() {    
 /*
@@ -8,7 +11,7 @@ float: floating point, a number with a fractional part.
 double: double-precision floating point value.
 char: single character.
 */
-    
+    printf("***Data Types****\n");
     printf("int: %Id \n",sizeof(int));
     printf("float: %Id \n",sizeof(float));
     printf("double: %Id \n",sizeof(double));
@@ -27,9 +30,17 @@ b = 34;
 
 int c = a + b;
 
-printf("%d \n",c);
-printf("%f \n",salary);
-printf("%c \n",letter);
+printf("c= %d \n",c);
+printf("salary= %f \n",salary);
+printf("letter= %c \n",letter);
+
+
+//     Constants 
+printf("****Constants ****\n");
+
+const double pi = (3.141);
+printf("const pi=  %f \n",pi);
+printf("define PI  %f  \n",PI);
 
 
 
