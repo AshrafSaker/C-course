@@ -9,7 +9,8 @@ int main(){
     printf("Write string: ");
     gets(st); //input stings
     printf("You entered: %s \n",st);
-
+    //output strings
+    puts(st);
 
 
     return 0;
