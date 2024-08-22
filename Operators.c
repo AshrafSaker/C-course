@@ -27,7 +27,7 @@ int main() {
     printf("Result= %f \n", result);
 
     //operator precedence
-
+    printf("\n \n** operator precedence ** \n");
     int a,b,c,res;
     a= 6;
     b=5;
@@ -41,6 +41,7 @@ int main() {
     printf("Result (a+b)/c= %d \n",res);
 
     //Type Conversion
+    printf("\n \n** Type Conversion ** \n");
 
     int price;
     float incres,new_price;
@@ -52,7 +53,27 @@ int main() {
     printf("Int Number = %d \n",(int)new_price); //change result to int
     // convert to float
     new_price = (float) price / incres; //chang price to float
-    printf("Float Number= %4.2f \n",new_price);
+    printf("Float Number= %2.2f \n",new_price);
+
+
+    //Assignment Operators
+    printf("\n \n** Assignment Operators ** \n");
+
+    int x= 2;
+    printf("x= %d \n",x);
+    x += 2;
+    printf("x+2= %d \n",x);
+    x *= 5;
+    printf("x*5= %d \n",x);
+    x /= 2;
+    printf("x/2= %d \n",x);
+    x -= 2;
+    printf("x-2= %d \n",x);
+    x %= 3;
+    printf("x % 3= %d \n",x);
+    x += 2 *3;
+    printf("x + 2 *3 = %d \n",x);
+
 
 
 
