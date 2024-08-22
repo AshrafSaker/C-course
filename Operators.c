@@ -74,6 +74,32 @@ int main() {
     x += 2 *3;
     printf("x + 2 *3 = %d \n",x);
 
+    //Increment & Decrement 1
+
+    printf("\n \n ** Increment & Decrement (1) ** \n");
+
+    int y,u,z;
+    y=3;
+    u=5;
+
+    printf("y=%d , c=%d  \n",y,u);
+
+    //Increment 
+
+    y++;
+    printf("y++ = %d \n",y);
+    u++;
+    printf("u-- = %d \n",u);
+
+
+    x=8;
+    y=7;
+
+    x++;
+    x+=y--;
+    printf("X= %d \n",x);
+
+
 
 
 
