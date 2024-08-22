@@ -40,6 +40,21 @@ int main() {
     res = (a+b)/c;
     printf("Result (a+b)/c= %d \n",res);
 
+    //Type Conversion
+
+    int price;
+    float incres,new_price;
+
+    price = 25;
+    incres = 2.6;
+    // convert to int
+    new_price = price / incres;
+    printf("Int Number = %d \n",(int)new_price); //change result to int
+    // convert to float
+    new_price = (float) price / incres; //chang price to float
+    printf("Float Number= %4.2f \n",new_price);
+
+
 
 
     return 0;
