@@ -26,6 +26,20 @@ int main() {
     printf("Mod= %d \n", reminder);
     printf("Result= %f \n", result);
 
+    //operator precedence
+
+    int a,b,c,res;
+    a= 6;
+    b=5;
+    c=2;
+
+    res = a+b-c;
+    printf("Result a+b-c= %d \n",res);
+    res = a+b/c;
+    printf("Result a+b/c= %d \n",res);
+    res = (a+b)/c;
+    printf("Result (a+b)/c= %d \n",res);
+
 
 
     return 0;
