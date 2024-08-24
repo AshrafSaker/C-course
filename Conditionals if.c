@@ -16,6 +16,19 @@ int main(){
         /* code */
         printf("\n you Win!!!! \n");
     }
+
+    // Else
+    int s =89;
+
+    if (/* condition */ s>=90)
+    {
+        /* code */ 
+        printf("\n you top 10% \n");
+    }
+    else {
+        printf("\n less than 90% \n");
+    }
+    
     
     
     return 0;
