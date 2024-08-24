@@ -28,6 +28,13 @@ int main(){
     else {
         printf("\n less than 90% \n");
     }
+
+    int y;
+    int x = 3;
+
+    y = (x >= 5) ?  5 : x;
+
+    printf("\n %d \n", y);
     
     
     
