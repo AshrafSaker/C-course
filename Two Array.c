@@ -14,15 +14,18 @@ int main(){
     //Display Array 
 
     int k,j;
+    int sum = 0;
 
     for ( k = 0; k < 2; k++)
     {
         for ( j = 0; j < 3; j++)
         {
             printf("Value in Array %d \n",a[k][j]);
+            sum += a[k][j];
         }
         printf("\n");
     }
+    printf("Sum= %d\n",sum);
     
 
     return 0;
