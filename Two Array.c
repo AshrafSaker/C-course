@@ -15,6 +15,7 @@ int main(){
 
     int k,j;
     int sum = 0;
+    int mult =1;
 
     for ( k = 0; k < 2; k++)
     {
@@ -22,10 +23,12 @@ int main(){
         {
             printf("Value in Array %d \n",a[k][j]);
             sum += a[k][j];
+            mult *= a[k][j];
         }
         printf("\n");
     }
     printf("Sum= %d\n",sum);
+    printf("Multi= %d\n",mult);
     
 
     return 0;
