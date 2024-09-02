@@ -18,6 +18,24 @@ int main(){
     printf("p continer adress = %x\n",p);
     printf("The Value of j = %d\n",j);
     printf("P pointer value = %d\n",*p);
+
+    // ** ptr to ptr
+    printf("\n**********************\n");
+    int x = 5;
+    int y;
+    int *pt = NULL;
+    pt = &x;
+
+    y = *pt +2;
+    printf("1st y= %d \n",y);
+    y += *pt ;
+    printf("2nd y= %d \n",y);
+    *pt =y;
+    printf("*pt value =%d \n",*p);
+    (*pt)++;
+    printf("(*pt)++ Value= %d \n");
+
+
     return 0;
 }
 
