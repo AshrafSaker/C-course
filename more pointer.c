@@ -9,6 +9,19 @@ int main(){
     {
         printf("PTR(%d)= %d \n",i,*(ptr+i));
     }
+
+    printf("\n *************\n");
+    printf("%d  %x\n", *ptr, ptr);  
+    ptr++;
+    printf("%d  %x\n", *ptr, ptr);  
+    ptr += 3;
+    printf("%d  %x\n", *ptr, ptr);  
+    ptr--;
+    printf("%d  %x\n", *ptr, ptr);  
+    ptr -= 2;
+    printf("%d  %x\n", *ptr, ptr);
+    ptr ++;
+    printf("%d  %x\n", *ptr, ptr);
     
     return 0;
 }
