@@ -31,6 +31,17 @@ strcmp() - compare two strings
     
     printf("\nHi, %s. Your age is %d", first_name, age);
 
+      char city[40];
+  printf(" Enter your favorite city: ");
+  gets(city);
+  // Note: for safety, use
+  // fgets(city, 40, stdin);
+  fputs(city, stdout);
+  printf(" is a fun city.");
+    // Note: for safety, use
+  // fgets(city, 40, stdin);
+
+  puts(city);
 
     return 0;
 }
